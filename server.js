@@ -9,7 +9,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(PORT, () => console.log('Example app listening on port 3000!'))
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://mag.miszewska:Magdalena1985@ds163781.mlab.com:63781/database-1', {
+mongoose.connect('mongodb://mag.miszewska:Magdalena1985@ds135966.mlab.com:35966/database-2', {
     useMongoClient: true
 });
 
